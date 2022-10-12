@@ -21,7 +21,7 @@ function NavBar(props) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" defaultActiveKet="#home">
+          <Nav className="ms-auto" >
             <Nav.Item>
               <Nav.Link as={Link} to="/">
                 <AiOutlineHome />
