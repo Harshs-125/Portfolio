@@ -4,10 +4,10 @@ import { AiOutlineDownload } from "react-icons/ai";
 import pdf from "../../Assets/harsh_resume6.pdf";
 import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  "https://github.com/Harshs-125/Portfolio/blob/master/src/Assets/harsh_resume6.pdf";
+  "https://raw.githubusercontent.com/Harshs-125/Portfolio/master/src/Assets/harsh_resume6.pdf";
 
 function Resume(props) {
   return (
@@ -16,14 +16,21 @@ function Resume(props) {
         style={{
           justifyContent: "center",
           position: "relative",
-          height: "100px"
+          height: "100px",
         }}
       >
         <Button
           variant="primary"
           href={pdf}
           target="_blank"
-          style={{ width: "250px", height: "50px", alignItems: "center" ,position:"absolute",top:"50%",transform: "translateY(-50%)"}}
+          style={{
+            width: "250px",
+            height: "50px",
+            alignItems: "center",
+            position: "absolute",
+            top: "50%",
+            transform: "translateY(-50%)",
+          }}
         >
           <AiOutlineDownload />
           Download CV
@@ -49,7 +56,14 @@ function Resume(props) {
           variant="primary"
           href={pdf}
           target="_blank"
-          style={{ width: "250px", height: "50px", alignItems: "center",position:"absolute",top:"50%",transform: "translateY(-50%)" }}
+          style={{
+            width: "250px",
+            height: "50px",
+            alignItems: "center",
+            position: "absolute",
+            top: "50%",
+            transform: "translateY(-50%)",
+          }}
         >
           <AiOutlineDownload />
           Download CV
