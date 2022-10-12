@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+}
+#tsparticles {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100%;
+  position: fixed !important;
+  height: 100%;
+}

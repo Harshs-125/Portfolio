@@ -1,0 +1,71 @@
+.about-section{
+    
+    width:95%;
+    margin: 10px auto;
+    height: auto;
+}
+.about-container{
+ width:90%;
+ height:100%;
+ margin: 50px auto;
+ padding: 15px;
+ text-align: center;
+ color: white;
+}
+.row
+{
+    width: 99%;
+    margin:auto;
+    height:90vh;    
+}
+.col{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.intro-description{
+    margin-top: 5px;
+    width:100%;
+}
+
+.i-p{
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: left;
+}
+.i-p ul{
+    text-align: left;
+    margin-left: 20px;
+}
+.i-p li{
+    list-style:none;
+}
+.tech-icons
+{
+    width:15rem;
+    height:5rem;
+    padding:1rem;
+}
+.tech-icons{
+    font-size: 4.5em !important;
+    margin: 1rem;
+    padding: 10px;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    opacity: 0.93 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+}
+.tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  }
+  .tech-icons a{
+    text-decoration: none;
+    color: white;
+  }

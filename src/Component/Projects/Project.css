@@ -1,0 +1,36 @@
+.project-section {
+  height: auto;
+  padding: 40px;
+}
+
+.project-heading {
+  color: white;
+}
+.project-card-view {
+  height: 100%;
+  text-align: center;
+  background-image: var(--section-background-color) !important;
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.btn{
+    color: #fff !important;
+    background-color: #623686 !important;
+    border-color: #623686 !important;
+}
+.btn:hover{
+    color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.btn:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
