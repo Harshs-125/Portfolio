@@ -4,19 +4,18 @@ import "../App.css";
 function Particle() {
   return (
     <Particles
-      id="tsparticles"
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 60,
             density: {
               enable: true,
               value_area: 1500,
             },
           },
           line_linked: {
-            enable: false,
-            opacity: 0.03,
+            enable: true,
+            opacity: 0.02,
           },
           move: {
             direction: "right",

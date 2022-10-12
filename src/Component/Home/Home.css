@@ -138,9 +138,9 @@
   border-radius: 50%;
   background-color: #fff;
   box-shadow:
-    0 0 30px 20px #fff,
-    0 0 30px 20px #cd5ff8,
-    0 0 30px 20px #cd5ff8;
+    0 0 3px 2px #fff,
+    0 0 3px 2px #cd5ff8,
+    0 0 3px 2px #cd5ff8;
   color:#cd5ff8;
 }
 .icons a{

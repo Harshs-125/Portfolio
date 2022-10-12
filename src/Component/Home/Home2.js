@@ -49,29 +49,29 @@ function Home2() {
           Feel Free to <span className="purple">connect</span> with me
         </p>
         <div className="social-media-handles">
-            <div className="icons">
-              <a href="#">
-                <AiFillGithub />
-              </a>
-            </div>
-            <div className="icons">
-              <a href="#">
+          <div className="icons">
+            <a href="https://github.com/Harshs-125">
+              <AiFillGithub />
+            </a>
+          </div>
+          <div className="icons">
+            <a href="https://www.instagram.com/__harsh.soni.__/">
               <AiFillInstagram />
-              </a>
-            </div>
-            <div className="icons">
-              <a href="#">
+            </a>
+          </div>
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/harsh-soni-2a73331b2/">
               <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="icons">
-              <a href="#">
+            </a>
+          </div>
+          <div className="icons">
+            <a href="#">
               <FaFacebook />
-              </a>
-            </div>
+            </a>
           </div>
         </div>
       </div>
+    </div>
   );
 }
 
