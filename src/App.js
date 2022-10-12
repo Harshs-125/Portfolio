@@ -1,8 +1,7 @@
 import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 
-import Footer from "./Component/Footer";
-import ScrollToTop from "./Component/ScrollToTop";
+
 import Home from "./Component/Home/Home";
 import About from "./Component/About/About";
 import Projects from "./Component/Projects/Project";

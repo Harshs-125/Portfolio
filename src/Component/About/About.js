@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Tooltip } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import {CgGames} from 'react-icons/cg'
 import {MdLocalMovies,MdTravelExplore} from 'react-icons/md'
 import {BsMusicNoteBeamed} from 'react-icons/bs'

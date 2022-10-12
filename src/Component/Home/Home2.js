@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import me from "../../Assets/me.jpg";
+
 function Home2() {
   return (
     <div fluid className="home-about-section" id="about">
@@ -65,7 +64,7 @@ function Home2() {
             </a>
           </div>
           <div className="icons">
-            <a href="#">
+            <a href="/">
               <FaFacebook />
             </a>
           </div>

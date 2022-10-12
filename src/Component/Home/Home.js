@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import Type from "./Type";
 import homelogo from "../../Assets/home-main.png";
 import Home2 from "./Home2";
 import './Home.css';
-import Particle from "../Particle";
+
 
 function Home(props) {
   return (
